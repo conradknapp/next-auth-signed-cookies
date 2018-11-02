@@ -8,7 +8,7 @@ const dev = process.env.NODE_ENV !== "production";
 const AUTH_USER_TYPE = "authenticated";
 const COOKIE_SECRET = "secret123";
 const COOKIE_OPTIONS = {
-  // domain: 'YOU_DOMAIN',
+  // domain: 'YOUR_DOMAIN',
   // path: "/",
   secure: !dev,
   httpOnly: true,
